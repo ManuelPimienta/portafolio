@@ -6,16 +6,31 @@
 
 .contacto { display: inline-block; }
 
-.educacion-habilidades { border-style: solid; display: flex; justify-content: center}
+.educacion-habilidades { 
+    font-family: 'Merriweather', serif;
+    /* border-style: solid;  */
+    display: flex; 
+    justify-content: center}
 
-.universidad { 
-    border-style: dashed; 
+.universidad {
+    padding: 2%; 
+    /* border-style: dashed;  */
     border-color: red; 
     text-align: right;
 }
 
 .habilidades {
+    padding: 2%;
     display: inline-block; 
-    border-style: dashed; 
+    /* border-style: dashed;  */
     border-color: blue;
+}
+
+h3, h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h4 {
+    color: silver
 }
