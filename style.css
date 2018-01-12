@@ -1,3 +1,10 @@
 .cabecera {
     text-align: center;
 }
+
+.iconos-contacto { border-style: solid; text-align: center}
+
+.contacto { display: inline-block; border-style: dashed;}
+
+
+p {background: silver}
