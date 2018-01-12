@@ -1,10 +1,21 @@
 .cabecera {
-    text-align: center;
+    text-align: center; font-family: 'Merriweather', serif;
 }
 
-.iconos-contacto { border-style: solid; text-align: center}
+.iconos-contacto { text-align: center}
 
-.contacto { display: inline-block; border-style: dashed;}
+.contacto { display: inline-block; }
 
+.educacion-habilidades { border-style: solid; display: flex; justify-content: center}
 
-p {background: silver}
+.universidad { 
+    border-style: dashed; 
+    border-color: red; 
+    text-align: right;
+}
+
+.habilidades {
+    display: inline-block; 
+    border-style: dashed; 
+    border-color: blue;
+}
