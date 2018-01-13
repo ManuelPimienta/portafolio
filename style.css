@@ -1,6 +1,7 @@
 .cabecera {
     flex-direction: column;
-    text-align: center; font-family: 'Playfair Display', serif; background-color: #18C29C; color: rgba(255, 255, 255, 0.459);
+    text-align: center; font-family: 'Playfair Display', serif; background-color: #18C29C; 
+    color: rgba(255, 255, 255, 0.459);
 }
 
 .bio {
@@ -11,12 +12,12 @@
     margin-left: 20%;
     margin-right: 20%;
 }
-p {
-    font-family: 'Ubuntu', sans-serif; color: white;
+p, h5 {
+    font-family: 'Ubuntu', sans-serif; 
 }
 
-h5 {
-    font-family: 'Ubuntu', sans-serif;
+p {
+    color: white;
 }
 
 .iconos-contacto { text-align: center; margin-top: 10px}
@@ -25,23 +26,18 @@ h5 {
 
 .educacion-habilidades { 
     font-family: 'Playfair Display', serif;
-    /* border-style: solid;  */
     display: flex; 
     justify-content: center
 }
 
 .universidad {
     padding: 2%; 
-    /* border-style: dashed;  */
-    border-color: red; 
     text-align: right;
 }
 
 .habilidades {
     padding: 2%;
     display: inline-block; 
-    /* border-style: dashed;  */
-    border-color: blue;
 }
 h1 {
     color: rgba(255, 255, 255, 0.459)
@@ -56,18 +52,18 @@ h3, h4, h5 {
     margin-bottom: 2px;
 }
 
-h4 {
+h4, h5 {
     color: silver
 }
 
 .meter { 
 	height: 10px;  /* Can be anything */
 	position: relative;
-	/* background: #555; */
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
+	background: #555;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	border-radius: 25px;
-    padding: 10px;
+    padding: 0.5px;
     padding-left: 0px
 	/* box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); */
 }
@@ -77,17 +73,17 @@ h4 {
     height: 100%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: #18C29C;
     /* background-image: linear-gradient(
       center bottom,
       rgb(43,194,83) 37%,
       rgb(84,240,84) 69% 
-    );*/
-    /* box-shadow: 
+    ); 
+    box-shadow: 
       inset 0 2px 9px  rgba(255,255,255,0.3),
-      inset 0 -2px 6px rgba(0,0,0,0.4); */
+      inset 0 -2px 6px rgba(0,0,0,0.4);*/
     position: relative;
     overflow: hidden;
   }
